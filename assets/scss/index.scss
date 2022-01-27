@@ -1,0 +1,38 @@
+// Variables
+$main-color: #005EB8;
+$navigationMenu: #E6F1FD;
+$background-color:#F4F6FC;
+$colorClassicButton: #0091DA;
+$redCancelColor: #F8295D;
+$blueCreateColor: #0691DA;
+$greenButton: #00A3A1;
+$colorButtonGreen: #1BA3A1;
+
+// Imports
+@import "appbar";
+@import "avatar";
+@import "button";
+@import "card";
+@import "col";
+@import "content";
+@import "dialog";
+@import "div";
+@import "field";
+@import "font";
+@import "image";
+@import "links";
+@import "main";
+@import "navigation";
+@import "row";
+@import "switch";
+@import "tab";
+@import "table";
+@import "text";
+
+// .imageProfileAdmin{
+//     height: 10em !important;
+//     width: auto !important;
+// }
+.loginBackStyle{
+  background-color: $background-color !important;
+}

@@ -1,0 +1,33 @@
+// custom all data table
+.v-data-table{
+    // border: 1.5px solid #BCC7D5 !important;
+    text-align: center !important;
+    .v-data-table__wrapper{
+        .v-data-table-header{
+            .text-start{
+                color: #00338D !important;
+                font-size: .9em;
+            }
+        }
+        tbody{
+            .text-start{
+                color: #001D38 !important;
+                font-size: .85em;
+            }
+        }
+    }
+}
+.v-data-table thead tr:last-child th{
+  text-align: center !important;
+}
+.dataTableStyle tbody tr{
+  height: 74px!important;
+}
+
+.tableOnTab{
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom: 1.5px solid #BCC7D5 !important;
+  border-left: 1.5px solid #BCC7D5 !important;
+  border-right: 1.5px solid #BCC7D5 !important;
+}

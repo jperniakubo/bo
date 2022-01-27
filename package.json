@@ -1,0 +1,43 @@
+{
+  "name": "kpmgBo",
+  "version": "1.0.0",
+  "private": true,
+  
+  "scripts": {
+    "dev": "cross-env ENV=local nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "cross-env ENV=development nuxt build",
+    "generate:production": "cross-env ENV=production nuxt build"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-qrcode": "^1.0.2",
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "apexcharts": "^3.20.2",
+    "axios": "^0.20.0",
+    "crypto-js": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "export-to-csv": "^0.2.1",
+    "nuxt-user-agent": "^1.2.2",
+    "moment": "^2.29.0",
+    "nuxt": "^2.14.0",
+    "nuxt-material-design-icons": "^1.0.4",
+    "nuxt-vuex-localstorage": "^1.2.6",
+    "redirect-ssl": "^2.0.0",
+    "sass-resources-loader": "^2.1.0",
+    "sha1": "^1.1.1",
+    "vue-apexcharts": "^1.6.0",
+    "vue-infinite-loading": "^2.4.5",
+    "vue-json-csv": "^1.2.12",
+    "vue-toastification": "^1.7.8",
+    "vue2-google-maps": "^0.10.7"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^7.3.1",
+    "vue-template-compiler": "^2.6.12"
+  }
+}

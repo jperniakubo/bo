@@ -1,0 +1,14 @@
+.v-tab {
+  width: 25% !important;
+  border: 1px solid #d3d9e2 !important;
+  text-transform: capitalize !important;
+  font-size: 16px !important;
+  color: #00338D80 !important;
+  letter-spacing: 0 !important;
+  &.v-tab--active{
+    border-bottom: 1px solid #ffffff !important;
+    color: #00338D !important;
+    font-size: 17px !important;
+    font-weight: bold !important;
+  }
+}
