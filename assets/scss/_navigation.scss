@@ -1,0 +1,41 @@
+.leftMenuPrincipal{
+    padding-top: 40px !important;
+    // border-right: 2px solid #00000029 !important;
+    -webkit-box-shadow: 2px 0px 5px -1px rgba(199,199,199,1);
+-moz-box-shadow: 2px 0px 5px -1px rgba(199,199,199,1);
+box-shadow: 2px 0px 5px -1px rgba(199,199,199,1);
+}
+.v-navigation-drawer{
+    background-image: url('/ic_menu_bo2x.png');
+    background-size: cover;
+    .v-list{
+        a{
+            margin-top: 2px;
+            margin-left: 5%;
+            margin-right: 8%;
+        }
+        a:hover{
+            background-color: $navigationMenu !important;
+            border-radius: 10px !important;
+        }
+    }
+    .v-list-item__content{
+        color: #00338D !important;
+        margin-top: 1% !important;
+        .v-list-item__title{
+            font-size: 0.95em !important;
+        }
+    }
+}
+.v-list .v-list-item--active.itemsMenu {
+    background: $navigationMenu !important;
+    color: $navigationMenu !important;
+    border-radius: 10px !important;
+}
+.itemsMenu{
+  &.itemLogout{
+    margin-top: 2px !important;
+    margin-left: 14px !important;
+    margin-right: 24px !important;
+  }
+}

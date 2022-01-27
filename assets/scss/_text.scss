@@ -1,0 +1,148 @@
+.paragraphCreateAdmin{
+    color: #001D38;
+    font-size: 1.1em;
+    span{
+        font-weight: bold;
+    }
+}
+.txtBreadCrumPositions{
+  margin-bottom: 0px !important;
+  color: #001D38 !important;
+  font-size: 1.1em !important;
+  span{
+      font-weight: bold !important;
+  }
+}
+.txtLabelImageProfile{
+	color:#656565 !important;
+	font-size:.8em !important;
+	margin-bottom: 0px !important;
+	margin-left: -20px !important;
+}
+
+.v-btn--active{
+    font-weight: 900 !important;
+}
+.txtGeneralSlotTable{
+  color: #001D38 !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+}
+.textPopup{
+	word-break: break-word !important;
+	&.titlePopup{
+    margin-top: 60px !important;
+		font-size: 19px !important;
+    color: #00338D !important;
+    font-weight: bold !important;
+  }
+  &.txtLabelPopup{
+    margin-top: 30px !important;
+    margin-bottom: 0px !important;
+		font-size: 16px !important;
+    color: #707070 !important;
+  }
+  &.title2Popup{
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+    text-align: center !important;
+		font-size: 19px !important;
+    color: #00338D !important;
+    font-weight: bold !important;
+  }
+  &.txtOnlyLabelPopup{
+    margin: 0px 12px !important;
+		font-size: 17px !important;
+    color: #3A4151 !important;
+    text-align: center !important;
+	}
+}
+.txtTitleNumberReservation{
+  padding-left: 10px !important;
+  font-weight: normal !important;
+  word-break: break-word !important;
+  font-size: 20px !important;
+  &.txtBlue{
+    color: #0691DA !important;
+  }
+  &.txtGreen{
+    color: #009A44 !important;
+  }
+  &.txtRed{
+    color: #F83869 !important;
+  }
+}
+.txtNumberReservation{
+  padding-left: 10px !important;
+  font-size: 35px !important;
+  font-weight: bold !important;
+  padding-top: 6px !important;
+}
+.txtWithoutMargin{
+  margin: 0px !important;
+}
+.txtFullNameUser{
+  color: #5C5C5C !important;
+  letter-spacing: 0px !important;
+  font-weight: bold !important;
+  margin-top: 10px !important;
+}
+.txtTitleInformationUser{
+  color: #000000 !important;
+  margin: 0px 14px !important;
+  font-size: 17px !important;
+
+  font-weight: bold !important;
+}
+.txtInfoUser{
+  color: #000000 !important;
+  font-size: 15px !important;
+  margin: 0px 16px !important;
+}
+.txtLabelsForms{
+  word-break: break-word !important;
+  font-size: 18px !important;
+}
+.txtErrorMessage{
+  color: red !important;
+  font-style: italic !important;
+  font-size: 12px !important;
+  margin: 0px !important;
+  word-break: break-word !important;
+}
+.txtNameToProfile{
+  cursor: pointer !important;
+}
+.txtTitleNotifications{
+  margin: 0px !important;
+}
+.txtTitleLogin{
+  margin-top: 80px !important;
+}
+.txtCaptionImages{
+  color: #656565 !important;
+  text-align: center !important;
+  font-size: 14px !important;
+  line-height: 15px !important;
+  word-break: break-word !important;
+}
+.txtTitles1Dashboard{
+  margin: 0px !important;
+  font-size: 25px !important;
+}
+.numbersStatistics{
+  font-size: 18px !important;
+}
+.txtEmptyCheckInCheckOut{
+  font-size:15px !important;
+  word-break: break-word !important;
+  margin-left: 8% !important;
+  margin-right: 8% !important;
+}
+.v-breadcrumbs__item{
+  color: #000000 !important;
+  font-family: "sfProDisplayRegular", sans-serif;
+}
+.v-breadcrumbs__item--disabled{
+  font-family: "sfProDisplayBold", sans-serif;
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52" height="52" viewBox="0 0 52 52">
+  <defs>
+    <filter id="Elipse_6361" x="0" y="0" width="52" height="52" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-color="#7e8d9f"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_15565" data-name="Grupo 15565" transform="translate(-1792 -378)">
+    <g transform="matrix(1, 0, 0, 1, 1792, 378)" filter="url(#Elipse_6361)">
+      <circle id="Elipse_6361-2" data-name="Elipse 6361" cx="20" cy="20" r="20" transform="translate(6 4)" fill="#0091da"/>
+    </g>
+    <g id="noun_edit_1126696" transform="translate(1805.674 389.674)">
+      <rect id="Rectángulo_9136" data-name="Rectángulo 9136" width="24" height="24" transform="translate(0.326 0.326)" fill="none"/>
+      <path id="Trazado_84189" data-name="Trazado 84189" d="M11.462,7a44.309,44.309,0,0,0-4.527.128A4.387,4.387,0,0,0,4.191,8.2a4.383,4.383,0,0,0-1.064,2.742A44.473,44.473,0,0,0,3,15.462a43.624,43.624,0,0,0,.131,4.526A4.391,4.391,0,0,0,4.2,22.73,4.394,4.394,0,0,0,6.947,23.8a44.115,44.115,0,0,0,4.515.128,43.659,43.659,0,0,0,4.515-.131,4.4,4.4,0,0,0,2.744-1.07,4.395,4.395,0,0,0,1.071-2.742,43.454,43.454,0,0,0,.132-4.52.769.769,0,1,0-1.539,0c0,1.913-.007,3.341-.122,4.345a2.981,2.981,0,0,1-.631,1.829,2.982,2.982,0,0,1-1.829.63c-1,.114-2.431.12-4.342.12s-3.338-.005-4.342-.119a2.983,2.983,0,0,1-1.829-.627,2.979,2.979,0,0,1-.631-1.829c-.115-1.005-.122-2.433-.122-4.35s0-3.345.117-4.351a2.976,2.976,0,0,1,.625-1.827,2.974,2.974,0,0,1,1.827-.627c1.006-.114,2.435-.119,4.354-.119a.769.769,0,1,0,0-1.539Z" transform="translate(-0.674 -1.597)" fill="#fff"/>
+      <path id="Trazado_84190" data-name="Trazado 84190" d="M21.988,3a.769.769,0,0,0-.532.225l-9.231,9.231A.769.769,0,0,0,12,13v2.308a.769.769,0,0,0,.769.769h2.308a.769.769,0,0,0,.544-.225l9.231-9.231a.769.769,0,0,0,0-1.088L22.544,3.225A.769.769,0,0,0,21.988,3ZM22,4.857l1.22,1.22L22,7.3l-1.22-1.22ZM19.692,7.165l1.22,1.22-6.154,6.154h-1.22v-1.22l6.154-6.154Z" transform="translate(-2.751 -0.674)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

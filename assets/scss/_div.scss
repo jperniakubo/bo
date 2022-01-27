@@ -1,0 +1,73 @@
+.containerStartSession{
+    position: relative;
+    // top: 20%;
+    h1{
+        color: $main-color;
+        font-weight: bold;
+        margin-bottom: .4em;
+        text-align: center;
+    }
+    .messageEnterData{
+        color: #3A4151;
+        font-size: 1.2em;
+        text-align: center !important;
+    }
+    .v-input__slot{
+        .v-icon{
+            color: $main-color !important;
+        }
+    }
+    .labelForm{
+        color: #454545;
+    }
+    .buttonStartSession{
+      border-radius: 12px !important;
+      width: 80%;
+      .v-btn__content{
+          text-transform: capitalize !important;
+      }
+    }
+    .my-2{
+        text-align: center;
+    }
+}
+.profilePictureUser{
+    img{
+        height: 9em !important;
+        width: 9em !important;
+    }
+}
+.customErrorMessage{
+    color: red;
+    font-style: italic;
+    font-size: .8em !important;
+}
+.divImageEditProfile{
+    margin: 0px 0px 10px 0px !important;
+}
+
+.divFieldText{
+    width:100%;
+    border: 1px solid #F3F3F3;
+    height:48px;
+    border-radius:5px;
+}
+
+.div-border{
+    width:100%;
+    border:1px dashed #b3b3b3;
+    border-width: 1px;
+}
+.classicPagination{
+  margin: 20px !important;
+}
+.divNotificationsScrollable{
+  max-height: 400px !important;
+	overflow-y: auto !important;
+	overflow-x: hidden !important;
+}
+.divBtnsLogin{
+  text-align:center !important;
+  margin-bottom:60px !important;
+  height: 50px !important;
+}

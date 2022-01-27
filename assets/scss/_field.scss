@@ -1,0 +1,28 @@
+.classicInput{
+    .v-input__slot{
+        // border: 1px solid #B7BEC6;
+        // border: 0.01em solid #B7BEC6;
+        border: 0.01em solid #c7c7c7;
+        .v-icon{
+            color: $main-color !important;
+        }
+    }
+    .v-label{
+      color: #c7c7c7 !important;
+    }
+}
+
+
+.theme--light.v-text-field--outlined:not(.v-input--is-focused):not(.v-input--has-state)
+  > .v-input__control
+  > .v-input__slot
+  fieldset {
+  color: rgba(0, 0, 0, 0.076) !important;
+}
+
+.v-text-field.v-text-field--solo:not(.v-text-field--solo-flat) > .v-input__control > .v-input__slot {
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.74) !important;
+}
+.inputWithoutLabel{
+  margin-top: 25px !important;
+}

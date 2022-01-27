@@ -1,0 +1,141 @@
+.v-btn__content{
+  letter-spacing: 0px !important;
+}
+.classicButtonCancel{
+    background-color: white !important;
+    color: $redCancelColor !important;
+    border-radius: 8px !important;
+    border: 1px solid $redCancelColor !important;
+    text-transform: capitalize !important;
+    letter-spacing: 0 !important;
+    width: 90% !important;
+    min-width: fit-content !important;
+}
+.classicButtonCreate{
+    background-color: white !important;
+    color: $blueCreateColor !important;
+    border-radius: 8px !important;
+    border: 1px solid $blueCreateColor !important;
+    text-transform: capitalize !important;
+    letter-spacing: 0 !important;
+    width: 90% !important;
+    min-width: fit-content !important;
+}
+.classicButton{
+    background-color: $colorClassicButton !important;
+    border-radius: 12px !important;
+    .v-btn__content{
+        text-transform: capitalize !important;
+    }
+    &.btnCreate{
+      margin-top: 25px !important;
+      width: 80% !important;
+      max-width: 180px !important;
+      min-width: fit-content !important;
+      float: right !important;
+    }
+    &.btnCreate2{
+      width: 80% !important;
+      max-width: 180px !important;
+      min-width: fit-content !important;
+      float: right !important;
+    }
+    &.btnCreatePopup{
+      margin-top: 25px !important;
+      margin-bottom: 50px !important;
+      width: 80% !important;
+      min-width: fit-content !important;
+    }
+    &.btnCreate2Popup{
+      margin-top: 25px !important;
+      // margin-bottom: 50px !important;
+      margin-bottom: 40px !important;
+      // width: 80% !important;
+      width: 100% !important;
+      min-width: fit-content !important;
+    }
+}
+.btnTapsReservation{
+  .v-btn__content{
+    text-transform: capitalize !important;
+    font-size: 17px !important;
+  }
+}
+.btnApplyFilter{
+  background-color: $main-color !important;
+  border-radius: 12px;
+  margin-top: 22px !important;
+  width: 80% !important;
+  max-width: 150px !important;
+  min-width: fit-content !important;
+  // float: right !important;
+  .v-btn__content{
+    text-transform: capitalize;
+  }
+}
+.btnGreen{
+  background-color: $colorButtonGreen !important;
+  width: 80% !important;
+  min-width: fit-content !important;
+  max-width: 180px !important;
+  float: right !important;
+  border-radius: 12px !important;
+  .v-btn__content{
+    text-transform: capitalize;
+  }
+  &.marginTop{
+    margin-top: 25px !important;
+  }
+}
+.popupButtons{
+  border-radius: 12px !important;
+  letter-spacing: 0 !important;
+  .v-btn__content{
+      text-transform: capitalize;
+  }
+  &.btnCancel{
+    background-color: $greenButton !important;
+    // width: 100% !important;
+    width: 100px !important;
+  }
+  &.btnAccept{
+    background-color: $main-color !important;
+    // width: 100% !important;
+    width: 100px !important;
+  }
+}
+
+.btnFieldText{
+    position: absolute !important;
+    right: -10px !important;
+    top: -10px !important;
+}
+
+.btnClearImage{
+  position: absolute !important;
+  right: -14px !important;
+  top: -14px !important;
+}
+
+
+.btn-abs{
+    position: absolute !important;
+    right: -15px !important;
+    top: -15px !important;
+  }
+.btnRemoveFilters{
+  // max-width: 30px !important;
+  // padding: 0px !important;
+  .btn__content {
+    padding: 0px !important;
+  }
+}
+.btnsTimeFrames{
+    text-transform: capitalize !important;
+}
+// .theme--light.v-btn-toggle:not(.v-btn-toggle--group) .v-btn.v-btn{
+//     border-color: transparent !important;
+// }
+.theme--light.v-btn-toggle:not(.v-btn-toggle--group) .v-btn.v-btn{
+  border-color: transparent !important;
+}
