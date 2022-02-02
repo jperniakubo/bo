@@ -1,7 +1,7 @@
 <template>
   <v-layout column>
     <v-flex xs12 sm8 md6>
-      <v-row class="pl-4 pr-4">
+      <v-row class="pl-4 pr-4 prueba-deploy">
         <v-col cols="12" sm="3" md="3">
           <label id="topList">Buscar:</label>
           <v-text-field
@@ -163,3 +163,8 @@ export default {
   },
 }
 </script>
+<style scoped>
+  .prueba-deploy{
+    background-color: #000;
+  }
+</style>
