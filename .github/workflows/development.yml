@@ -14,7 +14,7 @@ jobs:
         node-version: 14.7.0
         cache: 'npm'
     - run: npm install
-    - run: npm run generate --spa
+    - run: npm run generate -- --spa
     - uses: wlixcc/SFTP-Deploy-Action@v1.0
       with:
         username: 'node_kpmg'
