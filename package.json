@@ -2,7 +2,6 @@
   "name": "kpmgBo",
   "version": "1.0.0",
   "private": true,
-  
   "scripts": {
     "dev": "cross-env ENV=local nuxt",
     "build": "nuxt build",
