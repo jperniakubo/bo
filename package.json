@@ -9,6 +9,7 @@
     "generate": "cross-env ENV=development nuxt build",
     "generate:production": "cross-env ENV=production nuxt build"
   },
+  
   "dependencies": {
     "@chenfengyuan/vue-qrcode": "^1.0.2",
     "@nuxtjs/axios": "^5.12.2",
