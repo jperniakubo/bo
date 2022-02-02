@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env ENV=local nuxt",
+    "dev:loc": "cross-env ENV=local nuxt",
+    "dev": "cross-env ENV=development nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "cross-env ENV=development nuxt build",
     "generate:production": "cross-env ENV=production nuxt build"
   },
-  
   "dependencies": {
     "@chenfengyuan/vue-qrcode": "^1.0.2",
     "@nuxtjs/axios": "^5.12.2",
