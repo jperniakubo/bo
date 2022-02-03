@@ -17,7 +17,7 @@ jobs:
     - run: npm run generate -- --spa
     - uses: wlixcc/SFTP-Deploy-Action@v1.0
       with:
-         username: ${{ secrets.USER }}
+        username: ${{ secrets.USER }}
         server: ${{ secrets.SERVER }}
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
         local_path: './dist/*'
